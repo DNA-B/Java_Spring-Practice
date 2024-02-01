@@ -1,4 +1,4 @@
-## Main Class의 Configuration
+# Main Class의 Configuration
 
 - 이제 최적화 refactoring을 해보자
 - 지금까지는 Configuration 클래스를 만들고 그 곳에 많은 Bean 코드를 작성하였다.
@@ -20,7 +20,7 @@
     
 <br><br>
 
-## Bean의 자동 생성 - **Component**
+# Bean의 자동 생성 - **Component**
 
 - 지금까지는 수동으로 Bean을 생성했었다.
 - 이를 Spring이 할 수 있게 만들기 위해 미리 만들어둔 Class에 `@Component` Annotation을 붙여준다.
@@ -51,7 +51,7 @@
     
 <br><br>
 
-## Main Class에서의 Bean 탐색
+# Main Class에서의 Bean 탐색
 
 - Component를 부여하기만해서는 Spring이 사용할 수 없다.
 - 이를 위해 Configuration Class에 `@ComponentScan` Annotation을 적용해준다.
@@ -71,7 +71,7 @@ public class GamingAppLauncherApplication {
 
 <br><br>
 
-## 여러 Component 사이의 충돌
+# 여러 Component 사이의 충돌
 
 - GameRunner의 경우 Mario, PackMan, SuperContra 총 3개의 Component들을 이용할 수 있기 때문에 우선순위를 정할 수 없다.
 - 이를 방지하기 위해 Annotation을 사용할 수 있다.
@@ -102,7 +102,7 @@ public class GameRunner {
 
 <br><br>
 
-## Primary VS Qualifier
+# Primary VS Qualifier
 
 - `**@Primary**` : 여러 후보들이 있을 때 우선권을 누구에게 줄 것인가.
 - `**@Qualifier**` : 특정 Bean을 사용해야만 할 때 부여
@@ -113,7 +113,7 @@ public class GameRunner {
 
 <br><br>
 
-## Dependency Injection
+# Dependency Injection
 
 <aside>
 💡 Spring 팀은 **Constructor-based 방식을 추천**한다.
@@ -207,7 +207,7 @@ public class GameRunner {
         
 <br><br>
 
-## Spring Framework
+# Spring Framework
 
 
 - Spring에 의해 관리되는 instance of class
