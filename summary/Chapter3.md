@@ -1,4 +1,4 @@
-## 지연 초기화 / 즉시 초기화(Eager)
+# 지연 초기화 / 즉시 초기화(Eager)
 
 - Spring의 기본 초기화는 **즉시 초기화**이다.
 - Bean을 사용하지않아도 자동으로 초기화된다.
@@ -76,7 +76,7 @@
 
 <br><br>
 
-## Bean Scope(SingleTone, Prototype)
+# Bean Scope(SingleTone, Prototype)
 
 - **Singletone Class**의 경우 여러 번 출력시에 동일한 Hash값을 가진다.
     - Singletone의 경우 Spring IoC 컨테이너당 객체 인스터스가 하나이다.
@@ -127,7 +127,7 @@
 
 <br><br>
 
-## @PostConstruct와 @PreDestroy
+# @PostConstruct와 @PreDestroy
 
 `@PostConstruct` : 의존성을 연결하는 순간 초기화 작업이 필요한 경우 사용
 
@@ -183,7 +183,7 @@ Cleanup
 
 <br><br>
 
-## CDI Annotation
+# CDI Annotation
 
 - **Jakarta EE** : PC에서 동작하는 표준 플랫폼인 Java SE에 부가하여, 웹 애플리케이션 서버에서 동작하는 장애복구 및 분산 멀티티어를 제공하는 자바 소프트웨어의 기능을 추가한 서버를 위한 플랫폼
 - **CDI Annotation** : Jakarta EE에서 지원하는 Context Dependency injection API이다.
@@ -223,7 +223,7 @@ class BusinessService {
 
 <br><br>
 
-## XML Comfiguration
+# XML Comfiguration
 
 - Java Configuration으로 구현할 수 있는 것은 XML Configuration으로도 가능하다.
     
@@ -276,7 +276,7 @@ class BusinessService {
 
 <br><br>
 
-## Spring Stereotype Annotations - @Component & more..
+# Spring Stereotype Annotations - @Component & more..
 
 - `@Component` : **Generic annotation**이며 모든 클래스에 적용이 가능하다.
 - Specializations of Component
