@@ -1,4 +1,4 @@
-## 강한 결합
+# 강한 결합
 
 - MarioGame을 GameRunner 클래스에서 실행시키고 있었다.
 새로운 게임인 PackManGame 클래스를 만들었다면 손수 GameRunner 클래스에서 게임을 변경해주어야 한다.
@@ -27,7 +27,7 @@
 
 <br><br>
   
-## 느슨한 결합
+# 느슨한 결합
 
 - Interface를 도입하여 게임들이 해당 interface를 implement하게 만든다.
     - inferface란 특정 클래스 세트에서 수행할 수 있는 공통된 작업.
@@ -58,7 +58,7 @@
 
 <br><br>
 
-## Annotation (Configuration, Primary, Qualifier)
+# Annotation (Configuration, Primary, Qualifier)
 
 - **Configuration**
     
@@ -88,7 +88,7 @@
 
 <br><br>
 
-## Auto wiring
+# Auto wiring
 
 - **Bean에 name지정** → `@Bean(name = "myBean")`
 - **Method 호출 방식** → `new Object(beanName())`
@@ -96,7 +96,7 @@
 
 <br><br>
 
-## Spring Container
+# Spring Container
 
 - **Spring Container** : Spring Bean과 그것들의 lifecycle 관리
     - Bean Factory : Basic Spring Container
@@ -104,7 +104,7 @@
 
 <br><br>
 
-## Bean
+# Bean
 
 ```java
 record Person(String name, int age, Address address) {
