@@ -19,10 +19,34 @@
 
 <br><br>
 
-  ## [Chapter3](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter3.md)
+## [Chapter3](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter3.md)
 - 지연 초기화 / 즉시 초기화(Eager)
 - Bean Scope(SingleTone, Prototype)
-- @PostConstruct와 @PreDestroy
+- `@PostConstruct`와 `@PreDestroy`
 - CDI Annotation
 - XML Comfiguration
-- Spring Stereotype Annotations - @Component & more..
+- Spring Stereotype Annotations - `@Component` & more..
+
+<br><br>
+
+## [Chapter4](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter4.md)
+- 개요
+- Spring Boot의 목표
+- Spring Boot Starter Project
+- Spring Boot Auto Configuration
+- API 생성
+- Spring Boot DevTools
+- 환경별 설정
+- 로깅 레벨
+- Embedded Server
+- Spring Actuator
+
+<br><br>
+
+## [Chapter5](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter5.md)
+- 개요
+- h2 Database
+- Spring JDBC
+- Table Class
+- Spring JPA
+- Spring Data JPA
