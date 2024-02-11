@@ -1,4 +1,4 @@
-## [Chapter1](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter1.md)
+## [Chapter 1](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter1.md)
 - 강한 결합
 - 느슨한 결합
 - Annotation (Configuration, Primary, Qualifier)
@@ -8,7 +8,7 @@
 
 <br><br>
 
-## [Chapter2](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter2.md)
+## [Chapter 2](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter2.md)
 - Main Class의 Configuration
 - Bean의 자동 생성 - Component
 - Main Class에서의 Bean 탐색
@@ -19,7 +19,7 @@
 
 <br><br>
 
-## [Chapter3](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter3.md)
+## [Chapter 3](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter3.md)
 - 지연 초기화 / 즉시 초기화(Eager)
 - Bean Scope(SingleTone, Prototype)
 - `@PostConstruct`와 `@PreDestroy`
@@ -29,7 +29,7 @@
 
 <br><br>
 
-## [Chapter4](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter4.md)
+## [Chapter 4](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter4.md)
 - 개요
 - Spring Boot의 목표
 - Spring Boot Starter Project
@@ -43,10 +43,34 @@
 
 <br><br>
 
-## [Chapter5](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter5.md)
+## [Chapter 5](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter5.md)
 - 개요
 - h2 Database
 - Spring JDBC
 - Table Class
 - Spring JPA
 - Spring Data JPA
+
+<br><br>
+
+## [Chapter 6-1](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter6-1.md)
+- Spring MVC
+- View - JSP file
+- 백그라운드에서 일어나는 일
+- @RequestParam
+- Spring의 개발 역사
+- Login - 사용자 인증
+- Request vs Model vs Session
+- JSTL
+- CSS
+
+<br><br>
+
+## [Chapter 6-2](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter6-2.md)
+- redirect:”URL”
+- Validation with Spring Boot 
+- 네비게이션 바
+- Spring Security
+- Security로부터 정보얻기
+- Spring Data JPA와 H2 Database
+- docker - MySQL
