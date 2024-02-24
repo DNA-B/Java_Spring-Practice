@@ -72,10 +72,9 @@
 - `CryptPasswordEncoder();`
 - `SecurityContextHolder`
 
+<br><br>
+
 # Security로부터 정보얻기
-
----
-
 ```java
 private String getLoggedinUsername() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
