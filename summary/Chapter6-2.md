@@ -86,7 +86,24 @@ private String getLoggedinUsername() {
 <br><br>
 
 # Spring Data JPA와 H2 Database
-
+```java
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+    
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        http.authorizeHttpRequests(
+                auth -> auth.anyRequest().authenticated());
+        http.formLogin(withDefaults());
+        
+        http.csrf().disable();
+        http.headers().frameOptions().disable();
+        
+        return http.build();
+    }
+```
 - Spring Security와의 충돌해결
     - CSRF 비활성화
     - Frames
