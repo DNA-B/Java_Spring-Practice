@@ -61,11 +61,11 @@
     - 보안 인증같은 공통 기능을 FrontController에서 구현하고, 이를 확인한 후 적절한 Veiw 혹은 Servlet으로 전달할 수 있다.
 - `Spring MVC front Controller` - Dispatcher Servlet
     - Front Controller는 모든 HTTP Request를 받는다.
-    - 이를 처리하기 위해, `**Model, View, Controller**`를 이용한다.
+    - 이를 처리하기 위해, `Model, View, Controller`를 이용한다.
     - **URL**을 처리할 수 있는 Controller method를 식별한다.
     - 그 method는 `model`과 `view` 이름을 `return`한다.
-    - View Resolver가 `**prefix**`와 `**suffix**`를 이용하여 정확한 view 이름을 받아낸다.
-    - 그 후 `**xxxx.jsp**` 파일을 실행하게 된다.
+    - View Resolver가 `prefix`와 `suffix`를 이용하여 정확한 view 이름을 받아낸다.
+    - 그 후 `xxxx.jsp` 파일을 실행하게 된다.
 
 <br><br>
 
