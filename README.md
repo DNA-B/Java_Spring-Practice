@@ -74,3 +74,40 @@
 - Security로부터 정보얻기
 - Spring Data JPA와 H2 Database
 - docker - MySQL
+
+<br><br>
+
+## [Chapter 7-1](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter7-1.md)
+- @RequestMapping
+- 백엔드에서 일어나는 일
+- Path Parameters
+- Request Methods for REST API
+- @RequestBody
+- Response Status for REST API
+- createUser 개선
+- 예외 처리 구현
+- 예외 처리 구조 커스텀
+- DELETE API
+- 유효성 검증
+
+<br><br>
+
+## [Chapter 7-2](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter7-2.md)
+- REST API 문서
+- Swagger
+- Open API
+- Swagger 문서 자동 생성
+- 콘텐츠 협상
+- REST API의 국제화
+- REST API 버전 관리 - URI 버전 관리
+
+<br><br>
+
+## [Chapter 7-3](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter7-3.md)
+- REST API HATEOAS
+- REST API 정적 필터링
+- Spring Boot Actuator
+- Spring Boot HAL Explorer
+- 일대다 관계
+- MySQL 연결
+- Spring Security
