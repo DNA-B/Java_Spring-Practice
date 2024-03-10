@@ -200,8 +200,8 @@ Cleanup
 // 코드 작성 후 **Ctrl+Shift+O**로 import 수정 필요
 ```
 
-- `**@Named**` : Spring의 `@Component`와 대치
-- `**@Inject**` : Spring의 `@Autowired`와 대치
+- `@Named**` : Spring의 `@Component`와 대치
+- `@Inject**` : Spring의 `@Autowired`와 대치
 
 ```java
 **@Named**
@@ -241,7 +241,7 @@ class BusinessService {
     }
     ```
     
-    - 원래 사용하던 `AnnotationConfigApplicationContext`가 아닌`**ClassPathXmlApplicationContext**`를 사용하였다.
+    - 원래 사용하던 `AnnotationConfigApplicationContext`가 아닌`ClassPathXmlApplicationContext**`를 사용하였다.
     - `context`를 이용해 Bean을 사용하는 방식은 같다.
     
     ```xml
