@@ -12,7 +12,7 @@
 
 - H2 Console 사용
     - `application.properties` → `spring.h2.console.enabled=true`
-- 접속 URL → **`localhost:8080/h2-console`
+- 접속 URL → `localhost:8080/h2-console`
 - 매번 JDBC URL이 변경된다. → 정적 URL 필요
     - `application.properties` → `spring.datasource.url="url"`
 - TABLE 생성
@@ -76,7 +76,7 @@
 
 <br>
 
-`Runner**`
+`Runner`
 
 ```java
 @Component
@@ -210,7 +210,7 @@ public class CourseJpaRepository {
 
 <br>
 
-`Runner**`
+`Runner`
 
 ```java
 @Component
@@ -232,7 +232,7 @@ public class CourseCommandLineRunner implements CommandLineRunner {
 ```
 
 <aside>
-💡  **`spring.jpa.show-sql=true`를 통해 수행된 query를 콘솔 창에서 확인할 수 있다.**
+💡  `spring.jpa.show-sql=true`를 통해 수행된 query를 콘솔 창에서 확인할 수 있다.**
 
 </aside>
 
@@ -251,7 +251,7 @@ public interface CourseSpringDataJpaRepository extends JpaRepository<Course, Lon
 
 <br>
 
-`Runner**`
+`Runner`
 
 ```java
 @Component
@@ -286,7 +286,7 @@ public class CourseCommandLineRunner implements CommandLineRunner {
 
 <br>
 
-`Custom**`
+`Custom`
 
 ```java
 public interface CourseSpringDataJpaRepository extends JpaRepository<Course, Long> {
