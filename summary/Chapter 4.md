@@ -92,14 +92,14 @@ public class CourseController {
 
 # 환경별 설정
 
-`application.properties**`
+`application.properties`
 
 ```java
 logging.level.org.springframework=debug
 spring.profiles.active=dev
 ```
 
-**`application-dev.properties`
+`application-dev.properties`
 
 ```java
 logging.level.org.springframework=trace
@@ -109,7 +109,7 @@ currency-service.username=devUsername
 currency-service.key=devKey
 ```
 
-`application-prod.properties**`
+`application-prod.properties`
 
 ```java
 logging.level.org.springframework=info
@@ -151,7 +151,7 @@ logging.level.org.springframework=info
 
 - `pom.xml`에 `spring-starter-actuator`를 dependency에 추가해준다.
 
-`application.properties**`
+`application.properties`
 
 ```java
 management.endpoints.web.exposure.include=health, metrics
