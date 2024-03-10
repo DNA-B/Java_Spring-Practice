@@ -1,7 +1,3 @@
-# Chapter 7 - 3
-
-<br><br>
-
 # REST API HATEOAS
 ```xml
 		<dependency>
