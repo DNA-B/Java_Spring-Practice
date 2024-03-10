@@ -13,7 +13,7 @@
 # 백엔드에서 일어나는 일
 - 모든 요청은 가장 먼저 **디스패처 서블릿**이라는 곳으로 간다. → front controller pattern
     - Mapping servlets: dispatcherServlet urls=[/]
-    - 디스패처 서블릿은 `**AutoConfiguration**`에 의해 설정된다.
+    - 디스패처 서블릿은 `AutoConfiguration`에 의해 설정된다.
 - 디스패처 서블릿이 URL을 확인하고 알맞은 **컨트롤러 메소드**에 매핑한다.
 - 어떻게 Bean 객체가 JSON으로 변환되는가?
     - `@ResponseBody` + **JacksonHttpMessageConverters**
@@ -69,7 +69,7 @@
 # `@RequestBody`
 - 해당 어노테이션은 메소드 인자를 웹 요청의 본문과 매핑하라는 지시이다.
 - 웹 요청을 보낼 때 요청 본문을 함께 보내는데, 요청 본문에는 사용자의 정보를 담는다. 해당 코드에서는 User 빈과 매핑된다.
-- POST에서 json 포맷의 헤더는 `**application/json**`
+- POST에서 json 포맷의 헤더는 `application/json`
 
 <br><br>
 
@@ -90,8 +90,8 @@
 <br><br>
 
 # createUser 개선
-- `ResponseEntity.*created*(null).build();`
-    - Controller에서 status를 지정하여 반환하고싶은 경우 사용하는 것이 `**ResponserEntity**`
+- `ResponseEntity.created(null).build();`
+    - Controller에서 status를 지정하여 반환하고싶은 경우 사용하는 것이 `ResponserEntity`
     - `build()` → `created()`와 같은 함수를 사용하면 `ResponseEntity`가 아닌 `BodyBuilder`가 반환된다. 그러나 우리는 `ResponseEntity`를 반환할 것이므로 `build()`를 통해 타입을 변환해준다.
 - RESP API를 구현할 때는 API 소비자의 입장을 고려해야한다.
     - 사용자가 생성되면 201 상태를 반환하는 것 뿐만 아니라 어떤 사용자가 생성됐는지 알려주고 싶다면?
@@ -117,9 +117,6 @@
         - /users/{id}에서 {id}부분을 추가해주기 위해 `path("/{id}")`를 이용한다.
         - {id} 부분에 들어갈 실제 id값을 `buildAndExpand(savedUser.getId())`를 통해 명시한다.
         - 마지막으로 `toUri()`를 통해 URI 타입으로 변환해준 후 `created()` 함수에 전달하면 아래 사진과 같이 사용자 생성 이후 **location**을 반환한다.
-            
-            ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/459a6cf1-37d9-4d6d-b571-c19248cc3b95/c58d8c8c-e6c9-4c62-9790-852d2065dbbf/Untitled.png)
-            
         
 <br><br>
 
