@@ -1,6 +1,6 @@
 # Spring MVC
 
-- **`@RequestMapping` →** URL을 해당 method에 매핑할 수 있다.
+- `@RequestMapping` →** URL을 해당 method에 매핑할 수 있다.
 - **404 error** → 존재하지 않는다.
 - `@ResponseBody` → method가 리턴한 것 그대로를 브라우저에 리턴
 
