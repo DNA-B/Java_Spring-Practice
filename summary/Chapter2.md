@@ -75,8 +75,8 @@ public class GamingAppLauncherApplication {
 
 - GameRunner의 경우 Mario, PackMan, SuperContra 총 3개의 Component들을 이용할 수 있기 때문에 우선순위를 정할 수 없다.
 - 이를 방지하기 위해 Annotation을 사용할 수 있다.
-    - **`@Primary`**
-    - **`@Qualifier`**
+    - `@Primary`
+    - `@Qualifier`
 
 ```java
 @Component
@@ -104,8 +104,8 @@ public class GameRunner {
 
 # Primary VS Qualifier
 
-- `**@Primary**` : 여러 후보들이 있을 때 우선권을 누구에게 줄 것인가.
-- `**@Qualifier**` : 특정 Bean을 사용해야만 할 때 부여
+- `@Primary` : 여러 후보들이 있을 때 우선권을 누구에게 줄 것인가.
+- `@Qualifier` : 특정 Bean을 사용해야만 할 때 부여
 - 해당 코드에서 `ComplexAlgorithm`은 특정 Bean을 사용하지 않아 primary가 부여된 `QuickSort`를 사용하게 된다.
 - `AnotherComplexAlgorithm`은 `RadixSort`를 사용해야하므로 Qualifier가 부여된 `RadixSort`를 사용하였다.
 - 이를 통해 `@Qualifier`가 `@Primary`보다 우선순위가 높다는 것을 알 수 있다.
