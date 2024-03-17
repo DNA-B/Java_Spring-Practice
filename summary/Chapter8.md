@@ -161,5 +161,5 @@ class ThirdComponent extends Component {
     - 이후 `App.js`에서 컴포넌트를 `import`해야하고 해당 컴포넌트는 `export`해주어야 한다.
     - 모듈당 하나의 `default export`만 가능하다.
     - 중괄호를 이용해서 `import`하는 것은 무엇일까?
-        - 중괄호를 쓰지 않으면 무조건 `default export`를 가져온다. → `**Default import**`
-        - 만약 다른 컴포넌트를 불러와야한다면 중괄호를 이용해 `{모듈 이름}`으로 import해야 한다. → `**Named import**`
+        - 중괄호를 쓰지 않으면 무조건 `default export`를 가져온다. → `Default import`
+        - 만약 다른 컴포넌트를 불러와야한다면 중괄호를 이용해 `{모듈 이름}`으로 import해야 한다. → `Named import`
