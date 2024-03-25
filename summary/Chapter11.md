@@ -183,7 +183,7 @@
         ```
         
     3. 프론트엔드 쪽에서 Base64 인코딩을 통해 토큰을 만든다.
-        1. `const baToken='Basic '+ window.btoa(*username* + ":" + *password*)`
+        1. `const baToken='Basic '+ window.btoa(username + ":" + password)`
         2. 여기서 Basic 뒤에 공백과 `btoa` 형식을 잘 지켜주어야 한다.
     4. 그리고 토큰을 인증 헤더로서 요청을 전송한다.
         
