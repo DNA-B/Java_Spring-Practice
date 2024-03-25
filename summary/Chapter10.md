@@ -48,7 +48,7 @@
     - 여기서 `params`는 객체이고, `params.username`는 속성이다.
     - 여기서도 구조 분해를 사용할 수 있는데 `const {username} = userParams();`를 통해 값을 직접 받을 수도 있다.
 - JS 코드에서 문자열 안에 변수를 넣고 싶다면?
-    - **틱**을 사용해야한다. → ESC 밑에 있는 것 ```
+    - **틱**을 사용해야한다. → ESC 밑에 있는 것 ``
     - 그리고 `${variable}`과 같은 식으로 사용한다 → ``/welcome/${username}``
 
 <br><br>
