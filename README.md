@@ -166,3 +166,14 @@
 - 테스트 개선
 - Assert 메소드
 - JUnit Annotation
+
+<br><br>
+
+## [Chapter 13 (Stub과 Mock)](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter13.md)
+- 모킹이란?
+- 예시 프로젝트 만들기
+- Stub을 이용한 단위 테스트
+- Mockito
+- Mockito 어노테이션
+- 여러 값을 연속으로 테스트하기
+
