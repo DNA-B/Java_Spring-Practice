@@ -177,3 +177,23 @@
 - Mockito 어노테이션
 - 여러 값을 연속으로 테스트하기
 
+<br><br>
+
+## [Chapter 14 (Spring Security)](https://github.com/DNA-B/Java_Spring-Practice/blob/main/summary/Chapter14.md)
+- 보안의 기초
+- 보안의 원칙
+- Spring Security 시작하기
+- Spring Security 기본 설정
+- 폼 인증
+- 기본 인증
+- Cross-Site Request Forgery (CSRF)
+- REST API에서의 CSRF
+- CSRF 사용 해제
+- Cross-Origin-Resource-Share (CORS)
+- 메모리에 사용자 자격증명 저장하기
+- JDBC를 사용해 사용자 자격증명 저장하기
+- 인코딩, 해싱, 암호화
+- Bcrypt 인코딩 암호
+- JWT
+- JWT 인증 설정
+- Authorization
